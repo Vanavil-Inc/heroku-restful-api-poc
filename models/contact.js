@@ -33,8 +33,9 @@ module.exports = (sequelize, DataTypes) => {
     _hc_lastop: DataTypes.STRING,
     _hc_err: DataTypes.TEXT
   }, {
-    //schema: '', 
-    tableName: 'salesforce.contact'
+    schema: 'salesforce', 
+    tableName: 'contact',
+    timestamps: false,
   });
   Contact.associate = function(models) {
     // associations can be defined here

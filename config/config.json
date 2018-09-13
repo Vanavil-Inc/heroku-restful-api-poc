@@ -6,9 +6,9 @@
     "host": "ec2-107-21-233-72.compute-1.amazonaws.com",
     "dialect": "postgres",
     "native": true,
-    "ssl": true,
+    "ssl": false,
     "dialectOptions": {
-        "ssl": true
+        "ssl": false
     }
   },
   "test": {
@@ -18,9 +18,9 @@
     "host": "ec2-107-21-233-72.compute-1.amazonaws.com",
     "dialect": "postgres",
     "native": true,
-    "ssl": true,
+    "ssl": false,
     "dialectOptions": {
-        "ssl": true
+        "ssl": false
     }
   },
   "production": {
@@ -30,9 +30,9 @@
     "host": "ec2-107-21-233-72.compute-1.amazonaws.com",
     "dialect": "postgres",
     "native": true,
-    "ssl": true,
+    "ssl": false,
     "dialectOptions": {
-        "ssl": true
+        "ssl": false
     }
   }
 }
