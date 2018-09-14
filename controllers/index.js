@@ -3,5 +3,5 @@ const account = require('./account')
 
 module.exports = {
   contact,
-  account
+  account,
 };
